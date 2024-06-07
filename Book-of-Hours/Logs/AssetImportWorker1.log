@@ -1,0 +1,1375 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.26f1 (ec6cd8118806) revision 15494360'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32574 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityProjects/Book-of-Hours
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61669
+Successfully changed project path to: D:/UnityProjects/Book-of-Hours
+D:/UnityProjects/Book-of-Hours
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16392] Host "[IP] 192.168.0.228 [Port] 0 [Flags] 2 [Guid] 1362539408 [EditorId] 1362539408 [Version] 1048832 [Id] WindowsEditor(7,Mustakeem) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16392] Host "[IP] 192.168.0.228 [Port] 0 [Flags] 2 [Guid] 1362539408 [EditorId] 1362539408 [Version] 1048832 [Id] WindowsEditor(7,Mustakeem) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 3258.16 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 41.31 ms.
+Initialize engine version: 2022.3.26f1 (ec6cd8118806)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/Book-of-Hours/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro P2000 (ID=0x1cba)
+    Vendor:   NVIDIA
+    VRAM:     4017 MB
+    Driver:   31.0.15.3818
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028346 seconds.
+- Loaded All Assemblies, in  1.421 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.990 seconds
+Domain Reload Profiling: 2408ms
+	BeginReloadAssembly (477ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (154ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (177ms)
+	LoadAllAssembliesAndSetupDomain (565ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (559ms)
+			TypeCache.Refresh (555ms)
+				TypeCache.ScanAssembly (514ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (991ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (818ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (233ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (400ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 27.783 seconds
+Refreshing native plugins compatible for Editor in 25.38 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.89.1
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.000 seconds
+Domain Reload Profiling: 29698ms
+	BeginReloadAssembly (444ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (119ms)
+	RebuildNativeTypeToScriptingClass (32ms)
+	initialDomainReloadingComplete (140ms)
+	LoadAllAssembliesAndSetupDomain (26962ms)
+		LoadAssemblies (26676ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (555ms)
+			TypeCache.Refresh (395ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (100ms)
+			ResolveRequiredComponents (58ms)
+	FinalizeReload (2002ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1445ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (707ms)
+			ProcessInitializeOnLoadMethodAttributes (416ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+UniversalRenderPipelineAsset_Renderer is missing RendererFeatures
+This could be due to missing scripts or compile error.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.ScriptableRendererData:ValidateRendererFeatures () (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/ScriptableRendererData.cs:199)
+UnityEngine.Rendering.Universal.ScriptableRendererData:OnValidate () (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/ScriptableRendererData.cs:88)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.11/Runtime/ScriptableRendererData.cs Line: 199)
+
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.58 seconds
+Refreshing native plugins compatible for Editor in 31.70 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 5084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 98 unused Assets / (0.5 MB). Loaded Objects now: 5531.
+Memory consumption went from 259.9 MB to 259.4 MB.
+Total: 14.189700 ms (FindLiveObjects: 0.838800 ms CreateObjectMapping: 1.091200 ms MarkObjects: 11.503200 ms  DeleteObjects: 0.754700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70637.229297 seconds.
+  path: Assets/3D Models/NewBook/Prayer.fbx
+  artifactKey: Guid(60d977e64907708478b2cff834129ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/NewBook/Prayer.fbx using Guid(60d977e64907708478b2cff834129ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850efee83de2fd50901ed1f9933d0401') in 2.213084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/3D Models/NewBook/Book_20.fbx
+  artifactKey: Guid(8ded80a1056ce6745b74d53fea66cad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/NewBook/Book_20.fbx using Guid(8ded80a1056ce6745b74d53fea66cad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072ed7b5a606655b00f378956d609b3a') in 0.570961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 309.739598 seconds.
+  path: Assets/NewAssets/Branch_Main/3D Models/3D Enviornment/Fire Place.fbx
+  artifactKey: Guid(a591b461919b5104f95ade4f4e0a857a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_Main/3D Models/3D Enviornment/Fire Place.fbx using Guid(a591b461919b5104f95ade4f4e0a857a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb396e6fd9f80a3f7afa73f5d830f92') in 0.268168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/BrushRing.mat
+  artifactKey: Guid(fc831064da805784e84a86149c3671bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/BrushRing.mat using Guid(fc831064da805784e84a86149c3671bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834467d23aea19b7fdcd77a11720ca81') in 0.299625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/NewAssets/Branch_BookTextures/3D Models/RecMagHandle.obj
+  artifactKey: Guid(5f46eb48dfd03a242b6bfa15e7e7bdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_BookTextures/3D Models/RecMagHandle.obj using Guid(5f46eb48dfd03a242b6bfa15e7e7bdf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94935e8d66a94816ef1ff85fbc662f21') in 0.056327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialGreen.mat
+  artifactKey: Guid(2cc7f2461925b5c45a164db3cf15d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialGreen.mat using Guid(2cc7f2461925b5c45a164db3cf15d942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50997d6200d530fd3c63d2e05e4e6120') in 0.067349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/Door Frame.mat
+  artifactKey: Guid(a82ab7f40b432f44badc8091a7efdb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/Door Frame.mat using Guid(a82ab7f40b432f44badc8091a7efdb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d83f21688c1d78c23e5af679112e11') in 3.085914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxButtons.mat
+  artifactKey: Guid(b3244fa82a3c4c748a0faa4e84afa36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxButtons.mat using Guid(b3244fa82a3c4c748a0faa4e84afa36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c133310bc5094d5915a1ba8226023cd2') in 0.471273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Doll/Materials/DollMat.mat
+  artifactKey: Guid(b2d9cd483d439ec4aa919e5489cb12b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Doll/Materials/DollMat.mat using Guid(b2d9cd483d439ec4aa919e5489cb12b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b59b5241992a4a9eae1c5571c21cf7d') in 0.777141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Particles/Materials/Flame.mat
+  artifactKey: Guid(3e65fe499b776f247904d42c1a65d082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Particles/Materials/Flame.mat using Guid(3e65fe499b776f247904d42c1a65d082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e9d495237cb5319beba0feb21c8ac4') in 0.132819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialBlue.mat
+  artifactKey: Guid(d4b438dc8ad501b49a2690e746518b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialBlue.mat using Guid(d4b438dc8ad501b49a2690e746518b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6ff71a0b9e7d1e86025eae64a406bd') in 0.324511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/DropShadow.mat
+  artifactKey: Guid(453454162b59cff4e85715109e372e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/DropShadow.mat using Guid(453454162b59cff4e85715109e372e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e951dc72a047d4eda9cb547f800768cd') in 1.005208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Oculus/Interaction/Samples/Materials/DebugBody.fbx
+  artifactKey: Guid(5b25e751187aed74499ddb0afb0dc5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Materials/DebugBody.fbx using Guid(5b25e751187aed74499ddb0afb0dc5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f5f943965d96ee85e94cfd9a72f429') in 0.031186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Medium.ttf
+  artifactKey: Guid(6921a454aa104cf47a67f59c64acaa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Medium.ttf using Guid(6921a454aa104cf47a67f59c64acaa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4dcc35b6c7ef814b70548d348cfde40') in 0.045528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-LightItalic.ttf
+  artifactKey: Guid(d30609de8a17cfb409c74b4302ca60e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-LightItalic.ttf using Guid(d30609de8a17cfb409c74b4302ca60e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e7b201ce45146b73d24b4ad18b3aef') in 0.016850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-BoldItalic.ttf
+  artifactKey: Guid(440e99598766dbd40a4d8bc01445b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-BoldItalic.ttf using Guid(440e99598766dbd40a4d8bc01445b5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039f1fdf1679e8711a27c5f0f77da82a') in 0.362531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Door.mat
+  artifactKey: Guid(20ac978fe04599d459c505fe1a024e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Door.mat using Guid(20ac978fe04599d459c505fe1a024e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4057acbebc2bfb3ffae46b218b35d7e0') in 1.720314 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/FP Metal.mat
+  artifactKey: Guid(e92029f5f88e35a49abb451163906697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/FP Metal.mat using Guid(e92029f5f88e35a49abb451163906697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945951ef3e160e3d35774cc036c36a7c') in 1.872987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/FP Brick3.mat
+  artifactKey: Guid(82375d1b83e34374cb53542538de1bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/FP Brick3.mat using Guid(82375d1b83e34374cb53542538de1bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994e7ee3b3fafb87f22ec1d00f990ce2') in 1.468358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/TouchPro/Materials/GroundMat.mat
+  artifactKey: Guid(dc32b8fb317b6d5488f28b92e6f61860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/TouchPro/Materials/GroundMat.mat using Guid(dc32b8fb317b6d5488f28b92e6f61860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7295b2c6ec06da57473a2e323d156309') in 0.038833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/3D Models/toy/groupNumber_2Mat.mat
+  artifactKey: Guid(28cda34cbe5447246ae33b86e2801d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/toy/groupNumber_2Mat.mat using Guid(28cda34cbe5447246ae33b86e2801d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '668c9bff50bac420b5147b3e6e4c9b40') in 0.027914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/GroundMat.mat
+  artifactKey: Guid(7ae7dc43beb34534db810dee799107f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/GroundMat.mat using Guid(7ae7dc43beb34534db810dee799107f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de27f5a9d25dc23eca261c9e49e7c478') in 0.034089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Models/SmallRoom.fbx
+  artifactKey: Guid(78906942dba6db24ca155679a45f60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Room/Models/SmallRoom.fbx using Guid(78906942dba6db24ca155679a45f60ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73b3a1da5712b3773e0fd20169b81daa') in 1.126480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/NewAssets/Branch_BookTextures/3D Models/18th cent mag glass.fbx
+  artifactKey: Guid(41ccc91b5e81ad44ca8c14a803073c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_BookTextures/3D Models/18th cent mag glass.fbx using Guid(41ccc91b5e81ad44ca8c14a803073c46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e162ab3a67a3afbec54d473e61bf2c') in 0.088480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/3D Models/toy/groupNumber_0Mat.mat
+  artifactKey: Guid(b412c0fe7df18e842affb84b4a2c4940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/toy/groupNumber_0Mat.mat using Guid(b412c0fe7df18e842affb84b4a2c4940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb76aa79ecd6492f038953670994cec') in 0.032485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Metal.mat
+  artifactKey: Guid(955fc74a9334022449dbadf40f75d864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Metal.mat using Guid(955fc74a9334022449dbadf40f75d864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bec46a66dca5ecb3631b413111a6b36') in 0.923910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialGreen.fbx
+  artifactKey: Guid(b8eb22bbef4e12041945f044aeab9469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialGreen.fbx using Guid(b8eb22bbef4e12041945f044aeab9469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed7981d3d8bd23584e6980bd26fbe5c') in 0.065477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/3D Models/HeartBadge1.obj
+  artifactKey: Guid(36cd44d2ebdb34a45ba0aa5e7358c57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/HeartBadge1.obj using Guid(36cd44d2ebdb34a45ba0aa5e7358c57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a6924b707333bbd014969af5b76495') in 0.155056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.fbx
+  artifactKey: Guid(817c954a31a114577b56080dd5ca87c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.fbx using Guid(817c954a31a114577b56080dd5ca87c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43423e0d8a5e5b9683fa3f0d751ead6') in 1.179567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Light.ttf
+  artifactKey: Guid(4c90d3c4d98a33647872e06a6f654f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Light.ttf using Guid(4c90d3c4d98a33647872e06a6f654f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bc88a58dbc32b0dc753149f0c3245b') in 0.103474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NewAssets/Branch_3DEnvironment/3D Models/new_book_scan.fbx.fbx
+  artifactKey: Guid(bc44752271937aa4f9a197de54c82888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_3DEnvironment/3D Models/new_book_scan.fbx.fbx using Guid(bc44752271937aa4f9a197de54c82888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0576b1a72fb8536ac8bfa756c02980') in 0.182091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/NewAssets/Branch_BookTextures/3D Models/3D Enviornment/Beg Room Main Final Export.fbx
+  artifactKey: Guid(f87979c7434bb154ea523f69ffe4b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_BookTextures/3D Models/3D Enviornment/Beg Room Main Final Export.fbx using Guid(f87979c7434bb154ea523f69ffe4b44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b84d3d9a0ab71e5606e5c7fdf55a7134') in 8.046111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1956
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Ceiling.mat
+  artifactKey: Guid(e84b08dfae603654ca8b369fa516ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Ceiling.mat using Guid(e84b08dfae603654ca8b369fa516ab8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9250a35feeaed9be0024eeb2966d2fae') in 0.021528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Plaster 4 Door Frame.mat
+  artifactKey: Guid(e61fc8ac3fcb06342be53832ec2cedb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Plaster 4 Door Frame.mat using Guid(e61fc8ac3fcb06342be53832ec2cedb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b915f92f44a68ee4f3c143b15e939012') in 0.837846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NewAssets/Branch_3DEnvironment/3D Models/3D Enviornment/Beginauge Room Just Main Remade.fbx
+  artifactKey: Guid(704f7818a0f019d48a8ee2245ff65d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_3DEnvironment/3D Models/3D Enviornment/Beginauge Room Just Main Remade.fbx using Guid(704f7818a0f019d48a8ee2245ff65d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0708b961909ef3a956d6d8aa08c18c') in 16.467516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1358
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Models/MRDeskShadow.fbx
+  artifactKey: Guid(bb5c416ca94f7a34fbd14f26fa5a38e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Models/MRDeskShadow.fbx using Guid(bb5c416ca94f7a34fbd14f26fa5a38e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19543ff7420ee255fca3900b1549da7') in 0.057859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/NewAssets/Branch_Main/3D Models/RecMagFrame.obj
+  artifactKey: Guid(d8b1bfaa56a52fa4799629738399c7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_Main/3D Models/RecMagFrame.obj using Guid(d8b1bfaa56a52fa4799629738399c7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccc44a4910d064a47b8c03f0cfe6343') in 0.050964 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/NewAssets/Branch_BookTextures/3D Models/HeartBadge1.obj
+  artifactKey: Guid(691810d82fefd8441ba63a0e588d63b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_BookTextures/3D Models/HeartBadge1.obj using Guid(691810d82fefd8441ba63a0e588d63b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b56fd926d92246076428c90fe1d3ca1') in 0.109540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TextAndSettings/Fonts/Oxygen-Bold.ttf
+  artifactKey: Guid(7fbacdd0beb843a46b50afd86741caa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextAndSettings/Fonts/Oxygen-Bold.ttf using Guid(7fbacdd0beb843a46b50afd86741caa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771d674c2529e7590528957321773cc7') in 0.015897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/WaterParticles/BubblePopParticle.fbx
+  artifactKey: Guid(72c78ce3c437b6146a8939d3c0881f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/WaterParticles/BubblePopParticle.fbx using Guid(72c78ce3c437b6146a8939d3c0881f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5dfef8ffb51be6e9e9871557757b6e') in 0.037867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Textures/Environments/Materials/cathedral01_Bg.mat
+  artifactKey: Guid(22ad33c0716c984489a64c3327725009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Environments/Materials/cathedral01_Bg.mat using Guid(22ad33c0716c984489a64c3327725009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded0a36e01ef9957a61dfe5fed2197b5') in 0.973058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Seat Cushion.mat
+  artifactKey: Guid(6aac316240d4ea24facea7303cdaafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Seat Cushion.mat using Guid(6aac316240d4ea24facea7303cdaafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31041d4758f2064b2292b016f01e599') in 0.929431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb2fececd8db95fd663d86da6621fd77') in 0.336129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/NewAssets/Branch_3DEnvironment/3D Models/librarytable.dae
+  artifactKey: Guid(c7b906348b118834d9993f4305f032ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_3DEnvironment/3D Models/librarytable.dae using Guid(c7b906348b118834d9993f4305f032ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5051fd968ea2e80b64c123b626118d') in 0.026469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Models/MRDesk.fbx
+  artifactKey: Guid(c52c4e4029c7cc547a033db8b08dd4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/MRDesk/Models/MRDesk.fbx using Guid(c52c4e4029c7cc547a033db8b08dd4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4744b660d045dcbe3ce1fd860105edd8') in 0.037245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NewAssets/Branch_Main/3D Models/librarytable.dae
+  artifactKey: Guid(d3010482b0072184fa22465d0b5bbbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_Main/3D Models/librarytable.dae using Guid(d3010482b0072184fa22465d0b5bbbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8520de46ecc73bcafeff74c5caed657') in 0.082007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Textures/3D Envionrmnet/Outside/BrickRoad.mat
+  artifactKey: Guid(da05aa581d4d11840a6c5a8a1a794806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/Outside/BrickRoad.mat using Guid(da05aa581d4d11840a6c5a8a1a794806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73607f20cfb994dcf149547ae9cc56c9') in 0.783124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/Pages/USC BoH/Restored/page 60/BrownSpots.mat
+  artifactKey: Guid(a045725c15b4a1c4ab93da58eed191a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Pages/USC BoH/Restored/page 60/BrownSpots.mat using Guid(a045725c15b4a1c4ab93da58eed191a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebc1954c334b69256967dcd88f7e2bf') in 0.809536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/GroundMat.mat
+  artifactKey: Guid(1f0c317a1c26f8a4285902639d3d1a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/GroundMat.mat using Guid(1f0c317a1c26f8a4285902639d3d1a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7356597ac300a10d3b3ee947ab9fef72') in 0.010737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FatHand.mat
+  artifactKey: Guid(ab04d9fb6b1844341887a1606c641c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FatHand.mat using Guid(ab04d9fb6b1844341887a1606c641c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f33980d34c20a5fd0ba0fb480221b64') in 0.122904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NewAssets/Branch_3DEnvironment/3D Models/RecMagHandle.obj
+  artifactKey: Guid(5a2cff37906ef4e478969ae628a014e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_3DEnvironment/3D Models/RecMagHandle.obj using Guid(5a2cff37906ef4e478969ae628a014e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97a40fb0b8fb8a932084bdf15447791') in 0.054815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/Decals/Decal 2.mat
+  artifactKey: Guid(6a8779efc43f5ec44b84b4fb856d4a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/Decals/Decal 2.mat using Guid(6a8779efc43f5ec44b84b4fb856d4a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c19dcfe0d7b1986bba43cf78afab22a') in 1.369053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/NewAssets/Branch_Main/3D Models/3D Enviornment/Beg Room Main Final Export.fbx
+  artifactKey: Guid(a79a09d84ed4d7e499109d4559502074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_Main/3D Models/3D Enviornment/Beg Room Main Final Export.fbx using Guid(a79a09d84ed4d7e499109d4559502074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d5ffe2136106b8b901be91513dfb22') in 6.735125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1956
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oculus/Interaction/Samples/Materials/FramePoseTwoHandedParticle.mat
+  artifactKey: Guid(4f0bfa166f8d21e4f8b433ae64c0c0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Materials/FramePoseTwoHandedParticle.mat using Guid(4f0bfa166f8d21e4f8b433ae64c0c0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1803ce36a31c2c74992e0aa058a556a5') in 0.366236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/NewAssets/Branch_3DEnvironment/3D Models/3D Enviornment/Beg Final Room Roof.fbx
+  artifactKey: Guid(b975ac5aa79743f41b6510b6983bd9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_3DEnvironment/3D Models/3D Enviornment/Beg Final Room Roof.fbx using Guid(b975ac5aa79743f41b6510b6983bd9fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f56351a8f98ecc941ee00800b6d7d5') in 2.887777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Poured Cement.mat
+  artifactKey: Guid(97303a0814b0a2745b24ee73e9c18fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Poured Cement.mat using Guid(97303a0814b0a2745b24ee73e9c18fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68e7eb87f20685114252fa1619212c0') in 1.074555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM ChairWood2.mat
+  artifactKey: Guid(81575f28368345f429fc0bc9452ccfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM ChairWood2.mat using Guid(81575f28368345f429fc0bc9452ccfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98384f4583661b6f38171cf81e46c61d') in 1.257785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/Decals/Decal 3.mat
+  artifactKey: Guid(bd408b2bf6678644dbb16c40ac30f655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/Decals/Decal 3.mat using Guid(bd408b2bf6678644dbb16c40ac30f655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064d632baa4a7f4d5090cde498bd7012') in 0.521268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Chair Wood.mat
+  artifactKey: Guid(08f369e64609f6d42b87af5ee96d0948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Chair Wood.mat using Guid(08f369e64609f6d42b87af5ee96d0948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b3ab2615af56b2b88d9ad1155f8148') in 0.584861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Couch.mat
+  artifactKey: Guid(5f9c3db0cbc778540bbea776d0b2e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Couch.mat using Guid(5f9c3db0cbc778540bbea776d0b2e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e436f91a10054bd55b05b147f62a687') in 0.038967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TextAndSettings/Fonts/Oxygen-Regular.ttf
+  artifactKey: Guid(fd1e4734fdd4563438bead36095efa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextAndSettings/Fonts/Oxygen-Regular.ttf using Guid(fd1e4734fdd4563438bead36095efa0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c99f3cc6c15f320db856973589341f1') in 0.018073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Oculus/VR/Materials/cursor_timer_material.mat
+  artifactKey: Guid(9531aa878fd5c4749b288b72024e8d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/cursor_timer_material.mat using Guid(9531aa878fd5c4749b288b72024e8d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de448bc155897df56b0ae7388ec98be8') in 0.120089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/DefaultHandMaterial.mat
+  artifactKey: Guid(8f92ce6a2e9e04e458f46e6a635b1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/DefaultHandMaterial.mat using Guid(8f92ce6a2e9e04e458f46e6a635b1d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582cc0e5425ed08c0dd779aa5652877f') in 0.013583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/eyelashes.mat
+  artifactKey: Guid(e906d4c6bf3304d5dac06eee4fe24c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/LipSync/Models/FemaleHead_Morph/Materials/eyelashes.mat using Guid(e906d4c6bf3304d5dac06eee4fe24c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44eb40ace462c8ca08424c7218ed754b') in 0.528316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/NewAssets/Branch_Main/3D Models/18th cent mag glass.fbx
+  artifactKey: Guid(266f59983a45a8b4e9f72b9309b0dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_Main/3D Models/18th cent mag glass.fbx using Guid(266f59983a45a8b4e9f72b9309b0dce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8860bd92548dd6e717dabfdb8b9ad2f') in 0.060124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Oculus/VR/Materials/gaze_cursor.mat
+  artifactKey: Guid(7f31de375e167154aa45929466af30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/gaze_cursor.mat using Guid(7f31de375e167154aa45929466af30e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0d71a439c97774965f3e0b4a5bcf1f') in 0.217648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/DebugDrawLine.mat
+  artifactKey: Guid(b4fdc20717507cc48b28ef9db82f0d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Locomotion/Materials/DebugDrawLine.mat using Guid(b4fdc20717507cc48b28ef9db82f0d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b90773c33fd90b35b8325eb75a36864') in 0.052909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Desk.mat
+  artifactKey: Guid(5e69d30c83932bd4088b3f65bfd0b98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Desk.mat using Guid(5e69d30c83932bd4088b3f65bfd0b98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be896ad496e2ab5cc8a2c0286d2f63d') in 0.036487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Meshs/AnchorModel.fbx
+  artifactKey: Guid(80e6035dc653427458a8ff49ad454eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Meshs/AnchorModel.fbx using Guid(80e6035dc653427458a8ff49ad454eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaebc984323f3411eaa6b3fe6e43f9b8') in 0.360967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/FP Oak.mat
+  artifactKey: Guid(2525e8c2b7d0a0b40b5129c6e581d309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/FP Oak.mat using Guid(2525e8c2b7d0a0b40b5129c6e581d309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d847a264bca6c7f959789b23465d411') in 1.125051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/My texture/Door.mat
+  artifactKey: Guid(08e35465dcfa5f34fb3e21bb1921754f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/My texture/Door.mat using Guid(08e35465dcfa5f34fb3e21bb1921754f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340174e2cac5ac981c527006f95f54d6') in 0.469084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Textures/3D Envionrmnet/Outside/Glass.mat
+  artifactKey: Guid(d98d23e09d88f6541824480fe5e3419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/Outside/Glass.mat using Guid(d98d23e09d88f6541824480fe5e3419c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0224d645cb751f588682779d4bf716') in 0.447410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/CrossMaterial.mat
+  artifactKey: Guid(23530cc4d61a63f4c946ccd1b0315b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/CrossMaterial.mat using Guid(23530cc4d61a63f4c946ccd1b0315b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd6a59561989b302fc133cef50d835b') in 0.189089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Oculus/VR/Editor/BuildingBlocks/BlockData/RoomModel/Materials/Green.mat
+  artifactKey: Guid(074f7ca1cb31a2541a295200f16705d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/BuildingBlocks/BlockData/RoomModel/Materials/Green.mat using Guid(074f7ca1cb31a2541a295200f16705d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc5bf9aae7dfb6f9a40870fe07c6335') in 0.030246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/DistanceGrab/GroundMaterial.mat
+  artifactKey: Guid(8d8daae58c69eef4e8ac3d976703af6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/DistanceGrab/GroundMaterial.mat using Guid(8d8daae58c69eef4e8ac3d976703af6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacb136fbf181c48ff56815263a69ab6') in 0.020653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/3D Models/Materials/groupNumber_0Mat.mat
+  artifactKey: Guid(c836baef56f2b8343bf79ef05e80f7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Materials/groupNumber_0Mat.mat using Guid(c836baef56f2b8343bf79ef05e80f7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825296ed30744c5c4dfadbedfeb5808b') in 0.017566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Graffiti.mat
+  artifactKey: Guid(dd331cc38e3258643bf0d3d221718362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/Graffiti.mat using Guid(dd331cc38e3258643bf0d3d221718362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d47da4b14271b0cc1f4b7b95656ec2') in 0.221452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Materials/UI/Font 2.mat
+  artifactKey: Guid(d864d1abf64c25840a50fc40ffbe9bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Font 2.mat using Guid(d864d1abf64c25840a50fc40ffbe9bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d80fdd9e4d308ee2441e4b4f555d046') in 0.023234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/FP Brick2.mat
+  artifactKey: Guid(ec1283e2008b9c748ab43eabde49b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/FP Brick2.mat using Guid(ec1283e2008b9c748ab43eabde49b818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0487c6191e86316fd967ddbbe8590b3e') in 1.480002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Oculus/SampleFramework/Core/Locomotion/Materials/ColumnGlow.mat
+  artifactKey: Guid(5e53c7a8c2e563c4c90a8fa620eebc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/Locomotion/Materials/ColumnGlow.mat using Guid(5e53c7a8c2e563c4c90a8fa620eebc2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5a30129baf00b1198399211450a2e0') in 0.023004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/3D Models/toy/groupNumber_1Mat.mat
+  artifactKey: Guid(c7e1b1e1d75e1b346ae78a4e173e66ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/toy/groupNumber_1Mat.mat using Guid(c7e1b1e1d75e1b346ae78a4e173e66ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a641923deb689904e3bb0c188fb3235') in 0.013252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/3D Models/18th cent mag glass.fbx
+  artifactKey: Guid(73c632a12b827194191c45946950dcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/18th cent mag glass.fbx using Guid(73c632a12b827194191c45946950dcba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c53aa7e63e143ed80ed0f76ed43ac5') in 0.086957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Brick Floor.mat
+  artifactKey: Guid(d491956291af5144a9350d59d39c822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Brick Floor.mat using Guid(d491956291af5144a9350d59d39c822b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58600ac4b12d867fc350d59dd242065c') in 1.322128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Materials/UI/Font.mat
+  artifactKey: Guid(5f28a9af5d90f3f4eb110844fea4a029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Font.mat using Guid(5f28a9af5d90f3f4eb110844fea4a029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72641f430cb3ecc8679acecb4f9f4ccd') in 0.057557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx
+  artifactKey: Guid(f7c82b9ce28f07e4fa7f50280661a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx using Guid(f7c82b9ce28f07e4fa7f50280661a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00fe134764c3d03f38d836231c6957a') in 0.407169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialBlue.fbx
+  artifactKey: Guid(6cc34ec80006e8a429764b52c1b5e7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Materials/CubeMaterialBlue.fbx using Guid(6cc34ec80006e8a429764b52c1b5e7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00e4a2d44f08047340a4d49a9b6ee20f') in 0.237376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/Frosted Clear Glass.mat
+  artifactKey: Guid(9c1ff166e6bed2845a32fb0cbaee1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/Frosted Clear Glass.mat using Guid(9c1ff166e6bed2845a32fb0cbaee1976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf0016d17269a9d0fe0bd769b1c9093') in 0.310388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat
+  artifactKey: Guid(ca49380a71a2bb64c830d06bd421b9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/Standard Assets/Character Controllers/Sources/PrototypeCharacter/Materials/constructor_done.mat using Guid(ca49380a71a2bb64c830d06bd421b9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd6a422f52442971f42f01ddfe2fbba') in 0.499644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/NewAssets/Branch_3DEnvironment/3D Models/18th cent mag glass.fbx
+  artifactKey: Guid(2b859c5bce0547d4f933a98df4da701b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_3DEnvironment/3D Models/18th cent mag glass.fbx using Guid(2b859c5bce0547d4f933a98df4da701b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43c0f1ef971dfee36e3ebbd5361af99d') in 0.066511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Green Windows.mat
+  artifactKey: Guid(fd5f014111af14d4fb1b1994704c2378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Green Windows.mat using Guid(fd5f014111af14d4fb1b1994704c2378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd788a2eab221104ec544fbbeec1384f5') in 1.189740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/NewAssets/Branch_3DEnvironment/3D Models/HeartBadge1.obj
+  artifactKey: Guid(59c4cc0c591dfe042be4043acec921f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_3DEnvironment/3D Models/HeartBadge1.obj using Guid(59c4cc0c591dfe042be4043acec921f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad124c8d5ac6c1c63091903fcffd8c3') in 0.293548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-MediumItalic.ttf
+  artifactKey: Guid(53b4534908f8f324d8ffe0fc5fa5a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-MediumItalic.ttf using Guid(53b4534908f8f324d8ffe0fc5fa5a31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57245bc310925ca0df2871be26c73085') in 0.051599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NewAssets/Branch_BookTextures/3D Models/librarytable.dae
+  artifactKey: Guid(815d8172b405f84409af5e0717a21cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_BookTextures/3D Models/librarytable.dae using Guid(815d8172b405f84409af5e0717a21cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa19c09579ed807a038a50a6c6219139') in 0.075398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Oculus/Voice/Samples/Chess/Materials/ChessSkybox.mat
+  artifactKey: Guid(3d39282ced021cb4c9a7a4e4250201a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Voice/Samples/Chess/Materials/ChessSkybox.mat using Guid(3d39282ced021cb4c9a7a4e4250201a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544833b93f27df008b3fec4df66e6faf') in 0.379626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Doll/Materials/DollMat.fbx
+  artifactKey: Guid(d075ebbc4d53542299c9d7cd9a9885e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Doll/Materials/DollMat.fbx using Guid(d075ebbc4d53542299c9d7cd9a9885e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57120d2004c66384f4885982d1f674ac') in 0.103658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Materials/Environment/cycles_prayer_kneeler_BaseColor.mat
+  artifactKey: Guid(5d77ca7c329d5c84095589023707d63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Environment/cycles_prayer_kneeler_BaseColor.mat using Guid(5d77ca7c329d5c84095589023707d63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12ea738f844918ae17068dfcb9823f9') in 0.031192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001699 seconds.
+  path: Assets/Materials/Badge Box/Gold.mat
+  artifactKey: Guid(4cf447a72af167b4588a14cea77628df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Badge Box/Gold.mat using Guid(4cf447a72af167b4588a14cea77628df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d5e6536e94e11368723a75a8cb5f12') in 0.064784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/DistanceReticle.mat
+  artifactKey: Guid(f76ac96be52ce764aa832df99e34d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/DistanceReticle.mat using Guid(f76ac96be52ce764aa832df99e34d87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ef61cfcb6528fa7a9deb0b8731f420') in 0.108153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextAndSettings/Fonts/Oxygen-Light.ttf
+  artifactKey: Guid(65ef3682b09939d4488b2e43c63c91c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextAndSettings/Fonts/Oxygen-Light.ttf using Guid(65ef3682b09939d4488b2e43c63c91c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47edbc135673e0659b4177af066d130d') in 0.035097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000804 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/FP Brick1.mat
+  artifactKey: Guid(4f21b9e61a6e1534cb18f9f8b5497aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/FP Brick1.mat using Guid(4f21b9e61a6e1534cb18f9f8b5497aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c049aa1f12fa906342ac1e299af1e8f5') in 1.300781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/GrabDebugSphere.mat
+  artifactKey: Guid(f4b49debff9d269449879fc6f5991a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/GrabDebugSphere.mat using Guid(f4b49debff9d269449879fc6f5991a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971586e0d7cbc1d9cbdd839b38df8f48') in 0.123174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Floor.mat
+  artifactKey: Guid(6317243759ba40f43a2bf4a90c9e95d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Floor.mat using Guid(6317243759ba40f43a2bf4a90c9e95d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cacd827d5751935e542e9dedcd1c231c') in 0.072476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/DebugUnlitMaterial.mat
+  artifactKey: Guid(32c9cae82fc27e4429ecd48a7c3ea496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/DebugUnlitMaterial.mat using Guid(32c9cae82fc27e4429ecd48a7c3ea496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b95d59a3bcf60e1d3a39de0d210b5ff') in 0.045116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Particles/Materials/FlamePool.mat
+  artifactKey: Guid(b16763e78b97b3846b0b387008718b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Torch/Particles/Materials/FlamePool.mat using Guid(b16763e78b97b3846b0b387008718b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c7efebf6034b2e7d0f462f28ee7f5c') in 0.059737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/CoffeeCup/CoffeeCupMat.mat
+  artifactKey: Guid(b456eb5028a92da499e79da1ac0eccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/CoffeeCup/CoffeeCupMat.mat using Guid(b456eb5028a92da499e79da1ac0eccdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ea2ec569f3e7896882aac64438a21f') in 0.853232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Fabric.mat
+  artifactKey: Guid(aae5e920b8e06ca44af918d3f48f4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Fabric.mat using Guid(aae5e920b8e06ca44af918d3f48f4ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79888d9d51c24ff7811f30255a54eeb4') in 0.033918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/DistanceLine.mat
+  artifactKey: Guid(6ca35ef23029a0243b2a3a93082a3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/DistanceLine.mat using Guid(6ca35ef23029a0243b2a3a93082a3c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84dde78ac1cf2ba945df11c66d1d8e5') in 0.034603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/NewAssets/Branch_Main/3D Models/RecMagHandle.obj
+  artifactKey: Guid(9d93c522d5a060741bbec142cca35c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_Main/3D Models/RecMagHandle.obj using Guid(9d93c522d5a060741bbec142cca35c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8560a4f04ae7af44499b7b754e37534') in 0.088698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000690 seconds.
+  path: Assets/Oculus/Interaction/Runtime/Materials/DotGridUnlit.mat
+  artifactKey: Guid(c8abc1d05afcf524eb9f7657ed06700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Runtime/Materials/DotGridUnlit.mat using Guid(c8abc1d05afcf524eb9f7657ed06700d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed10bef2a4669912fdd3d49c3beb6aaa') in 0.066369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/3D Models/RecMagFrame.obj
+  artifactKey: Guid(71c0e65c3a0f6714fbcfcbb311014b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/RecMagFrame.obj using Guid(71c0e65c3a0f6714fbcfcbb311014b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c893b33f3295cef9038a2be9a01e96b') in 0.387932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Screen/Materials/FrameMaterial.fbx
+  artifactKey: Guid(0149d0c06fc814c9abda2f5a244f6d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Screen/Materials/FrameMaterial.fbx using Guid(0149d0c06fc814c9abda2f5a244f6d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2239414a37fdeec0d42440e7977f1f9') in 0.120660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Materials/defaultMat.mat
+  artifactKey: Guid(d15925a06f2a10648a6db9e53b680f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/defaultMat.mat using Guid(d15925a06f2a10648a6db9e53b680f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08014c9e14f7f55e9f6b17b657740d6') in 0.025773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/FP Brick4.mat
+  artifactKey: Guid(9f468cc81ff77164fbc34b1796f8b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/FP Brick4.mat using Guid(9f468cc81ff77164fbc34b1796f8b6e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7defa38220fe464d5de5dcca73f89402') in 0.830208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.mat
+  artifactKey: Guid(1ca71802d51bae64a8033f42a2b05713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.mat using Guid(1ca71802d51bae64a8033f42a2b05713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a07a52bab4a02a4c23d259942d5f313') in 0.094205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Ceiling Wood.mat
+  artifactKey: Guid(f3d6413925fe29f48b747af0342a35bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Ceiling Wood.mat using Guid(f3d6413925fe29f48b747af0342a35bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052c2cf11ffe36bc9103ab0bbb10ec7d') in 1.072747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Textures/3D Envionrmnet/Bed/Curtain.mat
+  artifactKey: Guid(adba118515d95b746a1800dc53258680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/Bed/Curtain.mat using Guid(adba118515d95b746a1800dc53258680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af6523fcae1af85a88e696d8802ec30') in 0.549607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Textures/3D Envionrmnet/FirePlace/Decals/Decal 4.mat
+  artifactKey: Guid(44ee50a44428aa14ca326f0a326812a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/FirePlace/Decals/Decal 4.mat using Guid(44ee50a44428aa14ca326f0a326812a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d0752167340a102f385cf11759b8a8') in 0.612745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/CoffeeCup/CoffeeCupMat.fbx
+  artifactKey: Guid(c703a789a976640a0bb1213664b73ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/CoffeeCup/CoffeeCupMat.fbx using Guid(c703a789a976640a0bb1213664b73ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9d8d771df173e746a4ba7a1ff8f7db') in 0.089600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Window Pane.mat
+  artifactKey: Guid(4195445e016cfbd4faac75fe73748218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/BRM Window Pane.mat using Guid(4195445e016cfbd4faac75fe73748218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25f9feb3dd73cf7a33c4c71a38d1915') in 0.822439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Textures/3D Envionrmnet/Outside/Dirt.mat
+  artifactKey: Guid(98fe2b6176462f24da7df7edf8d3ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/Outside/Dirt.mat using Guid(98fe2b6176462f24da7df7edf8d3ad31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba8707de6dc0c029f8e40e4a18790d3c') in 0.236030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/VR/Materials/CubeMaterial.mat
+  artifactKey: Guid(62db2d638434d5a488dfb1e789e34b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/CubeMaterial.mat using Guid(62db2d638434d5a488dfb1e789e34b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1d81f418fe03c9ae56e636f66f58c1') in 0.391798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/ALINE/Resources/aline_font.ttf
+  artifactKey: Guid(de5743d7052e68e1b968ac7e8398c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/ALINE/Resources/aline_font.ttf using Guid(de5743d7052e68e1b968ac7e8398c2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86539012d28540d3af3b5b09a3d816d9') in 0.184008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Materials/UI/Foward.mat
+  artifactKey: Guid(648df2e1ea96b2f44aa8caac724d10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI/Foward.mat using Guid(648df2e1ea96b2f44aa8caac724d10ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f1749c6963b92afefe6522f028efe') in 0.068559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Oculus/Spatializer/scenes/materials/Ground.mat
+  artifactKey: Guid(e121bf11a9143914dbafa9e733415f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/materials/Ground.mat using Guid(e121bf11a9143914dbafa9e733415f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35bb39d182e8f0f44b987b63e5455e4') in 0.011844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/NewAssets/Branch_Main/3D Models/HeartBadge1.obj
+  artifactKey: Guid(169c86493c04b454e88b56fb9c895f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_Main/3D Models/HeartBadge1.obj using Guid(169c86493c04b454e88b56fb9c895f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46028184bda5d83017fe898b933d3a3b') in 0.100932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Bold.ttf
+  artifactKey: Guid(7e89e80fce8fc06478c726f2f3de7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/DebugUI/Fonts/Montserrat/Montserrat-Bold.ttf using Guid(7e89e80fce8fc06478c726f2f3de7863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e18ca8078dd10b630ced194725bb0c8') in 0.018859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/GridMat.mat
+  artifactKey: Guid(ef9e1306ede8d0f48b798c2341d75ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/GridMat.mat using Guid(ef9e1306ede8d0f48b798c2341d75ffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d44ba8b99d017bb7a25fdefd9e4f5e') in 0.095654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxGlow.mat
+  artifactKey: Guid(a439cfb9369c1404d9db2e5580667b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBoxGlow.mat using Guid(a439cfb9369c1404d9db2e5580667b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c731e402a17730fc55e00ab96a800b8') in 0.053141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NewAssets/Branch_BookTextures/3D Models/new_book_scan.fbx.fbx
+  artifactKey: Guid(72874bf77eb24a44f8ed76eb63d3fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_BookTextures/3D Models/new_book_scan.fbx.fbx using Guid(72874bf77eb24a44f8ed76eb63d3fb9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8735fea1508077816e8915de14f86d66') in 0.539065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/Green Wood.mat
+  artifactKey: Guid(07a6c2132d03e7b489f42f9d952ef57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/Green Wood.mat using Guid(07a6c2132d03e7b489f42f9d952ef57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995953ce929a7d27b7ce553e63073cac') in 0.392814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Textures/3D Envionrmnet/BegMainRoom/Deco Oak Door.mat
+  artifactKey: Guid(ca1c5035f94df484a97395f4ee819467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/3D Envionrmnet/BegMainRoom/Deco Oak Door.mat using Guid(ca1c5035f94df484a97395f4ee819467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91067bb3ace30b8a5b34d00bc8cb35c2') in 0.315775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FlashlightGlow.mat
+  artifactKey: Guid(0f3abb54da8820c4891cbee10f6f037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/Passthrough/Materials/FlashlightGlow.mat using Guid(0f3abb54da8820c4891cbee10f6f037e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d69052bcf1b33a81574f62b026686e') in 0.060867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/3D Models/Materials/groupNumber_1Mat.mat
+  artifactKey: Guid(70378e7190bfcc9409a9a005fa45f361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Materials/groupNumber_1Mat.mat using Guid(70378e7190bfcc9409a9a005fa45f361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6754b5142a0ad92dc64531e5739e6a32') in 0.013590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Environment/Screen/Materials/FrameMaterial.mat
+  artifactKey: Guid(66ad1818cc27f3840b0350726d52fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/Screen/Materials/FrameMaterial.mat using Guid(66ad1818cc27f3840b0350726d52fa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c54d5c4528301554c031de24d583303') in 0.018743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBox.mat
+  artifactKey: Guid(520a8c6c6d409b44d921cd1e654d1807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Materials/ControllerBox.mat using Guid(520a8c6c6d409b44d921cd1e654d1807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62604329f0e985381760b42e2f7073d') in 0.137860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/NewAssets/Branch_3DEnvironment/3D Models/RecMagFrame.obj
+  artifactKey: Guid(1aa5965eb90bc7c49b715731f3a8fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_3DEnvironment/3D Models/RecMagFrame.obj using Guid(1aa5965eb90bc7c49b715731f3a8fcde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b95e6b4df755ca213d64c7f8cfba596') in 0.046493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Materials/Green.mat
+  artifactKey: Guid(2512827267cc0da4a90ecb92fd35043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SpatialAnchor/Materials/Green.mat using Guid(2512827267cc0da4a90ecb92fd35043b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bffe1ac6ae7efa1b69be77a016a646') in 0.014065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Oculus/VR/Editor/BuildingBlocks/BlockData/HandTracking/Materials/DefaultHandMaterial.mat
+  artifactKey: Guid(aa70c70787230f248b33d8a0ce1a6c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Editor/BuildingBlocks/BlockData/HandTracking/Materials/DefaultHandMaterial.mat using Guid(aa70c70787230f248b33d8a0ce1a6c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c0d5d27b1bced2322d23c9694647f50') in 0.012833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/3D Models/RecMagHandle.obj
+  artifactKey: Guid(2440eda1621e449459aaa3eb57e6600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/RecMagHandle.obj using Guid(2440eda1621e449459aaa3eb57e6600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08d97f8b0f599540960ef6c30868646') in 0.045717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/Cube/Materials/CubeMaterialWhite.mat
+  artifactKey: Guid(00ec3138fe73b8748b19403e06357e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/Cube/Materials/CubeMaterialWhite.mat using Guid(00ec3138fe73b8748b19403e06357e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fc746bd2152276c420de04ff692781') in 0.013521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Green.mat
+  artifactKey: Guid(302477ffe5025c8418b312bcaf88563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/Green.mat using Guid(302477ffe5025c8418b312bcaf88563f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feeca1c1371ace96a62734aa0be36f8e') in 0.014384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Materials/ButtonRingShadowMat.mat
+  artifactKey: Guid(dab97cc97278e1542aca6d5c9daa46eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Interaction/Samples/Objects/Props/BigRedButton/Materials/ButtonRingShadowMat.mat using Guid(dab97cc97278e1542aca6d5c9daa46eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d7d3f7c8b13a203e2f957c258d78ee') in 0.048567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NewAssets/Branch_BookTextures/3D Models/RecMagFrame.obj
+  artifactKey: Guid(39e91aa964432974ab64c408b4bcb8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewAssets/Branch_BookTextures/3D Models/RecMagFrame.obj using Guid(39e91aa964432974ab64c408b4bcb8ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a20dbdb34222058282ee8222d5170f') in 0.044702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Oculus/VR/Materials/GazePointer.mat
+  artifactKey: Guid(3fac3b9744290eb4c89b0e4ffd5fe085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/VR/Materials/GazePointer.mat using Guid(3fac3b9744290eb4c89b0e4ffd5fe085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b86e3a8e275091ba057c891a3ff2cce') in 0.055114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/DiffusedWhite.mat
+  artifactKey: Guid(cef9aed54ef583f47b43a017bfe6b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/SceneManager/Materials/DiffusedWhite.mat using Guid(cef9aed54ef583f47b43a017bfe6b0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698dc76d43704e84355395616bef30b5') in 0.013949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
